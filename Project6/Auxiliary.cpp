@@ -1,5 +1,5 @@
 #include "Auxiliary.h"
-
+// Прорисовка белой линии
 void W_line()
 {
 	std::cout << std::endl;
@@ -11,7 +11,7 @@ void W_line()
 	}
 	std::cout << std::endl;
 }
-
+// Завершающая надпись
 void End()
 {
 	system("cls");
@@ -46,7 +46,7 @@ void End()
 	}
 	std::cout << char(219);
 }
-
+// Мигание текста
 void Blink()
 {
 	std::cout << std::endl;

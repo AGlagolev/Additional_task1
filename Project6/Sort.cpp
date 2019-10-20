@@ -70,7 +70,7 @@ void Sort(int Arr[ROWS][COLS])
 			for (int i = x; i < ROWS; i++)
 			{
 				//int j;
-				 //(i == x) ? j = y + 1 : j = 0; //тернарный оператор
+				 //(i == x) ? j = y + 1 : j = 0; //тернарный оператор, замена if /else
 				for (int j = (i == x) ? j = y + 1 : j = 0; j < COLS; j++)
 				{
 					if (Arr[x][y] > Arr[i][j])
