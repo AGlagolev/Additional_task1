@@ -11,7 +11,7 @@ using namespace std;
 //#define DOUBLEx1
 //#define CHARx1
 //#define FLOATx1
-#define INTx2
+//#define INTx2
 #define DOUBLEx2
 #define CHARx2
 #define FLOATx2
