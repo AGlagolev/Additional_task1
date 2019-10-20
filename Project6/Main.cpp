@@ -1,17 +1,18 @@
 #include <iostream>
 #include "FillRand.h"
 #include "Print.h"
+#include "Print.cpp" //При использовании шаблонов необходимо прописывать и .cpp
 #include "Sort.h"
 #include "Auxiliary.h"
 
 using namespace std;
 ///**********************************************************************************************/
 ///**********************************************************************************************/
-//#define INTx1
-//#define DOUBLEx1
-//#define CHARx1
-//#define FLOATx1
-//#define INTx2
+#define INTx1
+#define DOUBLEx1
+#define CHARx1
+#define FLOATx1
+#define INTx2
 #define DOUBLEx2
 #define CHARx2
 #define FLOATx2
