@@ -69,13 +69,9 @@ void Sort(int Arr[ROWS][COLS])
 		{
 			for (int i = x; i < ROWS; i++)
 			{
-				int j;
-				if (i == x)
-				{
-					j = y + 1;
-				}
-				else j = 0;
-				for (; j < COLS; j++)
+				//int j;
+				 //(i == x) ? j = y + 1 : j = 0; //тернарный оператор
+				for (int j = (i == x) ? j = y + 1 : j = 0; j < COLS; j++)
 				{
 					if (Arr[x][y] > Arr[i][j])
 					{
@@ -99,13 +95,9 @@ void Sort(double Arr[ROWS][COLS])
 		{
 			for (int i = x; i < ROWS; i++)
 			{
-				int j;
-				if (i == x)
-				{
-					j = y + 1;
-				}
-				else j = 0;
-				for (; j < COLS; j++)
+				//int j;
+				//int j = (i == x) ? j = y + 1 : j = 0; //тернарный оператор
+				for (int j = (i == x) ? j = y + 1 : j = 0; j < COLS; j++)
 				{
 					if (Arr[x][y] > Arr[i][j])
 					{
@@ -128,13 +120,9 @@ void Sort(char Arr[ROWS][COLS])
 		{
 			for (int i = x; i < ROWS; i++)
 			{
-				int j;
-				if (i == x)
-				{
-					j = y + 1;
-				}
-				else j = 0;
-				for (; j < COLS; j++)
+				//int j;
+				//(i == x) ? j = y + 1 : j = 0; //тернарный оператор
+				for (int j = (i == x) ? j = y + 1 : j = 0; j < COLS; j++)
 				{
 					if (Arr[x][y] > Arr[i][j])
 					{
@@ -157,13 +145,9 @@ void Sort(float Arr[ROWS][COLS])
 		{
 			for (int i = x; i < ROWS; i++)
 			{
-				int j;
-				if (i == x)
-				{
-					j = y + 1;
-				}
-				else j = 0;
-				for (; j < COLS; j++)
+				//int j;
+				//(i == x) ? j = y + 1 : j = 0; //тернарный оператор
+				for (int j = (i == x) ? j = y + 1 : j = 0; j < COLS; j++)
 				{
 					if (Arr[x][y] > Arr[i][j])
 					{
