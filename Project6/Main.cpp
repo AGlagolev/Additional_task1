@@ -7,10 +7,10 @@
 using namespace std;
 ///**********************************************************************************************/
 ///**********************************************************************************************/
-#define INTx1
-#define DOUBLEx1
-#define CHARx1
-#define FLOATx1
+//#define INTx1
+//#define DOUBLEx1
+//#define CHARx1
+//#define FLOATx1
 #define INTx2
 #define DOUBLEx2
 #define CHARx2

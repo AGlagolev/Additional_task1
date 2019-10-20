@@ -1,36 +1,33 @@
 #include "Exchange.h"
 
-void Exchange(int a, int b, int &c, int &d)
+void Exchange(int &a, int &b)
 {
 
 	
 	int buff = a;
 	a = b;
 	b = buff;
-	c = a;
-	d = b;
+	
 }
-void Exchange(double a, double b, double &c, double &d)
+void Exchange(double &a, double &b)
 {
 	double buff = a;
 	a = b;
 	b = buff;
-	c = a;
-	d = b;
+	
 }
-void Exchange(char a, char b, char &c, char &d)
+void Exchange(char &a, char &b)
 {
 	char buff = a;
 	a = b;
 	b = buff;
-	c = a;
-	d = b;
+	
 }
-void Exchange(float a, float b, float &c, float &d)
+void Exchange(float &a, float &b)
 {
 	float buff = a;
 	a = b;
 	b = buff;
-	c = a;
-	d = b;
+	
 }
+
