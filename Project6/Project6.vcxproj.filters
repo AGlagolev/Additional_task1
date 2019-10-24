@@ -30,7 +30,7 @@
     <ClCompile Include="Sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Exchange .cpp">
+    <ClCompile Include="Exchange.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

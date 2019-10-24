@@ -3,7 +3,9 @@
 #include "Print.h"
 #include "Print.cpp" //При использовании шаблонов необходимо прописывать и .cpp
 #include "Sort.h"
+#include "Sort.cpp"
 #include "Auxiliary.h"
+//#include ""
 
 using namespace std;
 ///**********************************************************************************************/
