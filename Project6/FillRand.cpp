@@ -1,5 +1,6 @@
 #include "FillRand.h"
 ////ФУНКЦИЯ FillRand
+
 void FillRand(int Arr[], const int n, int min_val, int max_val)
 {
 	//Заполнение массива случайными числами:
