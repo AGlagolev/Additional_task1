@@ -120,6 +120,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Auxiliary.cpp" />
+    <ClCompile Include="Avg.cpp" />
+    <ClCompile Include="CharAvg.cpp" />
     <ClCompile Include="CharSum.cpp" />
     <ClCompile Include="Exchange.cpp" />
     <ClCompile Include="FillRand.cpp" />
@@ -130,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Auxiliary.h" />
+    <ClInclude Include="Avg.h" />
     <ClInclude Include="Exchange.h" />
     <ClInclude Include="FillRand.h" />
     <ClInclude Include="Global_var.h" />

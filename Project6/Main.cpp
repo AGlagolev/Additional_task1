@@ -8,19 +8,21 @@
 #include "Auxiliary.h"
 #include "Sum.h"
 #include "Sum.cpp"
+#include "Avg.h"
+#include "Avg.cpp"
 //#include ""
 
 using namespace std;
 ///**********************************************************************************************/
 ///**********************************************************************************************/
-//#define INTx1
-//#define DOUBLEx1
-//#define CHARx1
-//#define FLOATx1
-//#define INTx2
-//#define DOUBLEx2
-//#define CHARx2
-//#define FLOATx2
+#define INTx1
+#define DOUBLEx1
+#define CHARx1
+#define FLOATx1
+#define INTx2
+#define DOUBLEx2
+#define CHARx2
+#define FLOATx2
 /**********************************************************************************************/
 
 void main()
@@ -46,7 +48,8 @@ void main()
 	W_line();
 	Sort(Arr, n);
 	Print(Arr, n);
-	std::cout << endl << "Cумма элементов массива = " << Sum(Arr, n) << endl << endl;
+	std::cout << endl << "Cумма элементов массива = " << Sum(Arr, n) << endl;
+	std::cout << endl << "Среднее арифметическое элементов массива = " << Avg(Arr, n) << endl << endl;
 	std::cout << " Для повтора Нажмите 1: ";
 	if (_getch() == '1')
 	{
@@ -80,7 +83,8 @@ G_DOUBLEx1:
 	W_line();
 	Sort(Brr, m);
 	Print(Brr, m);
-	std::cout << endl << "Cумма элементов массива = " << Sum(Brr, m) << endl << endl;
+	std::cout << endl << "Cумма элементов массива = " << Sum(Brr, m) << endl;
+	std::cout << endl << "Среднее арифметическое элементов массива = " << Avg(Brr, m) << endl << endl;
 	std::cout << " Для повтора Нажмите 1: ";
 	if (_getch() == '1')
 	{
@@ -113,7 +117,8 @@ G_CHARx1:
 	W_line();
 	Sort(Crr, z);
 	Print(Crr, z);
-	std::cout << endl << "Cумма элементов массива = " << Suma(Crr, z) << endl << endl;
+	std::cout << endl << "Cумма элементов массива = " << Suma(Crr, z) << endl;
+	std::cout << endl << "Среднее арифметическое элементов массива = " << AvgC(Crr, z) << endl << endl;
 	std::cout << " Для повтора Нажмите 1: ";
 	if (_getch() == '1')
 	{
@@ -144,7 +149,8 @@ G_CHARx1:
 			 W_line();
 			 Sort(Frr, y);
 			 Print(Frr, y);
-			 std::cout << endl << "Cумма элементов массива = " << Sum(Frr, y) << endl << endl;
+			 std::cout << endl << "Cумма элементов массива = " << Sum(Frr, y) << endl;
+			 std::cout << endl << "Среднее арифметическое элементов массива = " << Avg(Frr, y) << endl << endl;
 			 std::cout << " Для повтора Нажмите 1: ";
 			 if (_getch() == '1')
 			 {
@@ -175,8 +181,8 @@ G_INTx2:
 	W_line();
 	Sort(Drr);
 	Print(Drr);
-	std::cout << endl << "Cумма элементов массива = " << Sum(Drr) << endl << endl;
-
+	std::cout << endl << "Cумма элементов массива = " << Sum(Drr) << endl;
+	std::cout << endl << "Среднее арифметическое элементов массива = " << Avg(Drr) << endl << endl;
 	std::cout << " Для повтора Нажмите 1: ";
 	if (_getch() == '1')
 	{
@@ -209,7 +215,7 @@ G_INTx2:
 			Sort(Ddr);
 			Print(Ddr);
 			std::cout << endl << "Cумма элементов массива = " << Sum(Ddr) << endl << endl;
-
+			std::cout << endl << "Среднее арифметическое элементов массива = " << Avg(Ddr)<< endl << endl;
 			std::cout << " Для повтора Нажмите 1: ";
 			if (_getch() == '1')
 			{
@@ -241,7 +247,7 @@ G_INTx2:
 			Sort(Dcr);
 			Print(Dcr);
 			std::cout << endl << "Cумма элементов массива = " << Suma(Dcr) << endl << endl;
-
+			std::cout << endl << "Среднее арифметическое элементов массива = " << AvgC(Dcr) << endl << endl;
 			std::cout << " Для повтора Нажмите 1: ";
 			if (_getch() == '1')
 			{
@@ -272,7 +278,7 @@ G_INTx2:
 					 Sort(Dfr);
 					 Print(Dfr);
 					 std::cout << endl << "Cумма элементов массива = " << Sum(Dfr) << endl << endl;
-
+					 std::cout << endl << "Среднее арифметическое элементов массива = " << Avg(Dfr) << endl << endl;
 					 std::cout << " Для повтора Нажмите 1: ";
 					 if (_getch() == '1')
 					 {
