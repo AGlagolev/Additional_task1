@@ -33,6 +33,12 @@
     <ClCompile Include="Exchange.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CharSum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FillRand.h">
@@ -51,6 +57,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Exchange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

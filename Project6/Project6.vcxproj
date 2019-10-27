@@ -120,11 +120,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Auxiliary.cpp" />
+    <ClCompile Include="CharSum.cpp" />
     <ClCompile Include="Exchange.cpp" />
     <ClCompile Include="FillRand.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Print.cpp" />
     <ClCompile Include="Sort.cpp" />
+    <ClCompile Include="Sum.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Auxiliary.h" />
@@ -133,6 +135,7 @@
     <ClInclude Include="Global_var.h" />
     <ClInclude Include="Print.h" />
     <ClInclude Include="Sort.h" />
+    <ClInclude Include="Sum.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
