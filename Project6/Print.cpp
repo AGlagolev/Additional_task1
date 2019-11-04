@@ -7,7 +7,7 @@ void Print(T Arr[], const int n)
 	//Вывод массива на экран:
 	for (int i = 0; i < n; i++)
 	{
-		std::cout << Arr[i] << "\t";
+		std::cout << *(Arr + i) << "\t";
 	}
 	std::cout << std::endl;
 }
