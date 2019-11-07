@@ -16,9 +16,16 @@ void Print(T Arr[], const int n)
 template<typename T>
 void Print(T Arr[ROWS][COLS])
 {
-	for (int i = 0; i < ROWS * COLS; i++)
+	for (int i = 0; i < ROWS; i++)
 	{		
-		if (i % COLS == 0)
+		for (int j = 0; j < COLS; j++)
+		{
+
+			std::cout << *(Arr[i] + j) << "\t";
+
+		}
+		std::cout << std::endl;
+		/*if (i % COLS == 0)
 		{
 			std::cout << std::endl;
 			std::cout << *(&Arr[0][0] + i) << "\t";
@@ -27,7 +34,7 @@ void Print(T Arr[ROWS][COLS])
 
 		{
 			std::cout << *(&Arr[0][0] + i) << "\t";
-		}
+		}*/
 		
 	}
 	std::cout << std::endl;
