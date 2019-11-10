@@ -2,6 +2,8 @@
 #include "Sum.h"
 #include "Global_var.h"
 
+//–≈јЋ»«ј÷»я ЎјЅЋќЌќ¬ ‘”Ќ ÷»… Avg
+// дл€ одномерных масивов
 template<typename T>
 double Avg(T Arr[], int const n)
 {
@@ -12,7 +14,7 @@ double Avg(T Arr[], int const n)
 	}
 	return(Summ/n);
 }
-
+// дл€ двумерных масивов
 template<typename T>
 double Avg(T Arr[ROWS][COLS])
 

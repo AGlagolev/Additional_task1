@@ -1,6 +1,9 @@
 #include "Sum.h"
 #include "Global_var.h"
 
+
+//–≈јЋ»«ј÷»я ЎјЅЋќЌќ¬ ‘”Ќ ÷»… Sum
+// дл€ одномерных масивов char
 string Suma(char Prr[], int const nn)
 {
 	string Summ = "";
@@ -10,7 +13,7 @@ string Suma(char Prr[], int const nn)
 	}
 	return(Summ);
 }
-
+// дл€ двумерных масивов char
 string Suma(char Arr[ROWS][COLS])
 
 {

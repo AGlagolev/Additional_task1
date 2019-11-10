@@ -1,5 +1,5 @@
 #include "FillRand.h"
-////ФУНКЦИЯ FillRand
+//РЕАЛИЗАЦИЯ ФУНКЦИЙ FillRand
 
 void FillRand(int Arr[], const int n, int min_val, int max_val)
 {
@@ -23,7 +23,7 @@ void FillRand(double Arr[], const int n, int min_val, int max_val)
 		Arr[i] /= 100;
 	}
 }
-////////////////////////////////////////
+//////////////////////////
 void FillRand(char Arr[], const int n, int min_val, int max_val)
 {
 	//Заполнение массива случайными числами:
@@ -35,7 +35,7 @@ void FillRand(char Arr[], const int n, int min_val, int max_val)
 		Arr[i] = (char)Num_of_Char;
 	}
 }
-////////////////////////////////////////
+//////////////////////////
 void FillRand(float Arr[], const int n, int min_val, int max_val)
 {
 	//Заполнение массива случайными числами:
@@ -47,7 +47,7 @@ void FillRand(float Arr[], const int n, int min_val, int max_val)
 		Arr[i] /= 100;
 	}
 }
-////////////////////////////////////////
+//////////////////////////
 void FillRand(int Arr[ROWS][COLS], int min_val, int max_val)
 {
  int temp = max_val - min_val;
@@ -61,7 +61,7 @@ void FillRand(int Arr[ROWS][COLS], int min_val, int max_val)
 	}
 
 }
-////////////////////////////////////////
+//////////////////////////
 void FillRand(double Arr[ROWS][COLS], int min_val, int max_val)
 {
 	int temp = (max_val - min_val) * 100;
@@ -75,8 +75,7 @@ void FillRand(double Arr[ROWS][COLS], int min_val, int max_val)
 
 	}
 }
-
-///////////////////////////////////////
+//////////////////////////
 void FillRand(char Arr[ROWS][COLS], int min_val, int max_val)
 {
 	for (int i = 0; i < ROWS; i++)
@@ -91,6 +90,7 @@ void FillRand(char Arr[ROWS][COLS], int min_val, int max_val)
 
 	}
 }
+//////////////////////////
 void FillRand(float Arr[ROWS][COLS], int min_val, int max_val)
 {
 	int temp = (max_val - min_val) * 100;

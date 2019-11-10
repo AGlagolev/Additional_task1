@@ -1,7 +1,7 @@
 #pragma once
 #include "Global_var.h"
 #include <iostream>
-////ÔÓÍÊÖÈß FillRand
+////ÏĞÎÒÎÒÈÏÛ ÔÓÍÊÖÈÉ FillRand
 
 void FillRand(int Arr[], const int n, int min_val, int max_val);      // Ìàññèâ òèïà int
 void FillRand(double Arr[], const int n,int min_val, int max_val);    // Ìàññèâ òèïà double

@@ -1,5 +1,4 @@
 #include <iostream>
-//#include <string>
 #include "FillRand.h"
 #include "Print.h"
 #include "Print.cpp" //При использовании шаблонов необходимо прописывать и .cpp
@@ -10,7 +9,7 @@
 #include "Sum.cpp"
 #include "Avg.h"
 #include "Avg.cpp"
-//#include ""
+
 
 using namespace std;
 ///**********************************************************************************************/

@@ -2,6 +2,8 @@
 #include "Sum.h"
 #include "Global_var.h"
 
+//–≈јЋ»«ј÷»я ЎјЅЋќЌќ¬ ‘”Ќ ÷»… Avg
+// дл€ одномерных масивов char
 char AvgC(char Prr[], int const nn)
 {
 	int Summ = 0;
@@ -11,7 +13,7 @@ char AvgC(char Prr[], int const nn)
 	}
 	return((char)(Summ/nn));
 }
-
+// дл€ двумерных масивов char
 char AvgC(char Arr[ROWS][COLS])
 
 {
