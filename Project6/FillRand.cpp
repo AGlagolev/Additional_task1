@@ -1,8 +1,13 @@
 #include "FillRand.h"
 //РЕАЛИЗАЦИЯ ФУНКЦИЙ FillRand
 
-void FillRand(int Arr[], const int n, int min_val, int max_val)
-{
+void FillRand(int Arr[], const int n)
+{	
+	int min_val, max_val;
+	std::cout << "Введите минимально допустимое значение элементов массива:";
+	std::cin >> min_val;
+	std::cout << "Введите максимально допустимое значение элементов массива:";
+	std::cin >> max_val;
 	//Заполнение массива случайными числами:
 	int temp = max_val - min_val;
 	
@@ -12,8 +17,13 @@ void FillRand(int Arr[], const int n, int min_val, int max_val)
 	}
 }
 ////////////////////////// 
-void FillRand(double Arr[], const int n, int min_val, int max_val)
+void FillRand(double Arr[], const int n)
 {
+	int min_val, max_val;
+	std::cout << "Введите минимально допустимое значение элементов массива:";
+	std::cin >> min_val;
+	std::cout << "Введите максимально допустимое значение элементов массива:";
+	std::cin >> max_val;
 	//Заполнение массива случайными числами:
     int temp = (max_val - min_val)* 100;
 
@@ -24,8 +34,13 @@ void FillRand(double Arr[], const int n, int min_val, int max_val)
 	}
 }
 //////////////////////////
-void FillRand(char Arr[], const int n, int min_val, int max_val)
+void FillRand(char Arr[], const int n)
 {
+	int min_val, max_val;
+	std::cout << "Введите минимально допустимое значение элементов массива:";
+	std::cin >> min_val;
+	std::cout << "Введите максимально допустимое значение элементов массива:";
+	std::cin >> max_val;
 	//Заполнение массива случайными числами:
 	for (int i = 0; i < n; i++)
 	{
@@ -36,8 +51,14 @@ void FillRand(char Arr[], const int n, int min_val, int max_val)
 	}
 }
 //////////////////////////
-void FillRand(float Arr[], const int n, int min_val, int max_val)
+void FillRand(float Arr[], const int n)
 {
+
+	int min_val, max_val;
+	std::cout << "Введите минимально допустимое значение элементов массива:";
+	std::cin >> min_val;
+	std::cout << "Введите максимально допустимое значение элементов массива:";
+	std::cin >> max_val;
 	//Заполнение массива случайными числами:
 	int temp = (max_val - min_val) * 100;
 
@@ -48,8 +69,13 @@ void FillRand(float Arr[], const int n, int min_val, int max_val)
 	}
 }
 //////////////////////////
-void FillRand(int Arr[ROWS][COLS], int min_val, int max_val)
+void FillRand(int Arr[ROWS][COLS])
 {
+	int min_val, max_val;
+	std::cout << "Введите минимально допустимое значение элементов массива:";
+	std::cin >> min_val;
+	std::cout << "Введите максимально допустимое значение элементов массива:";
+	std::cin >> max_val;
  int temp = max_val - min_val;
 	for (int i = 0; i < ROWS; i++)
 	{
@@ -62,8 +88,13 @@ void FillRand(int Arr[ROWS][COLS], int min_val, int max_val)
 
 }
 //////////////////////////
-void FillRand(double Arr[ROWS][COLS], int min_val, int max_val)
+void FillRand(double Arr[ROWS][COLS])
 {
+	int min_val, max_val;
+	std::cout << "Введите минимально допустимое значение элементов массива:";
+	std::cin >> min_val;
+	std::cout << "Введите максимально допустимое значение элементов массива:";
+	std::cin >> max_val;
 	int temp = (max_val - min_val) * 100;
 	for (int i = 0; i < ROWS; i++)
 	{
@@ -76,8 +107,13 @@ void FillRand(double Arr[ROWS][COLS], int min_val, int max_val)
 	}
 }
 //////////////////////////
-void FillRand(char Arr[ROWS][COLS], int min_val, int max_val)
+void FillRand(char Arr[ROWS][COLS])
 {
+	int min_val, max_val;
+	std::cout << "Введите минимально допустимое значение элементов массива:";
+	std::cin >> min_val;
+	std::cout << "Введите максимально допустимое значение элементов массива:";
+	std::cin >> max_val;
 	for (int i = 0; i < ROWS; i++)
 	{
 		for (int j = 0; j < COLS; j++)
@@ -91,8 +127,13 @@ void FillRand(char Arr[ROWS][COLS], int min_val, int max_val)
 	}
 }
 //////////////////////////
-void FillRand(float Arr[ROWS][COLS], int min_val, int max_val)
+void FillRand(float Arr[ROWS][COLS])
 {
+	int min_val, max_val;
+	std::cout << "Введите минимально допустимое значение элементов массива:";
+	std::cin >> min_val;
+	std::cout << "Введите максимально допустимое значение элементов массива:";
+	std::cin >> max_val;
 	int temp = (max_val - min_val) * 100;
 	for (int i = 0; i < ROWS; i++)
 	{
@@ -104,3 +145,4 @@ void FillRand(float Arr[ROWS][COLS], int min_val, int max_val)
 
 	}
 }
+
