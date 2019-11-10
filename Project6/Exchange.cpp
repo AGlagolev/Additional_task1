@@ -1,6 +1,6 @@
 #include "Exchange.h"
 
-//пеюкхгюжхъ ьюакнмю тсмйжхи Exchange
+//пеюкхгюжхъ ьюакнмю тсмйжхх Exchange
 template<typename T>
 void Exchange(T& a, T& b)
 {

@@ -131,33 +131,33 @@ G_CHARx1:
 #ifdef FLOATx1
 
 	G_FLOATx1:
-			 const int y = 10;
-			 int Min_Fx1;
-			 int Max_Fx1;
-			 std::cout << "\t\tОдномерный масив типа float";
-			 W_line();
-			 std::cout << "Введите минимально допустимое значение элементов массива:";
-			 std::cin >> Min_Fx1;
-			 std::cout << "Введите максимально допустимое значение элементов массива:";
-			 std::cin >> Max_Fx1;
-			 W_line();
+	const int y = 10;
+	int Min_Fx1;
+	int Max_Fx1;
+	std::cout << "\t\tОдномерный масив типа float";
+	W_line();
+	std::cout << "Введите минимально допустимое значение элементов массива:";
+	std::cin >> Min_Fx1;
+	std::cout << "Введите максимально допустимое значение элементов массива:";
+	std::cin >> Max_Fx1;
+	W_line();
 
-			 float Frr[y];
-			 FillRand(Frr, y, Min_Fx1, Max_Fx1);
-			 Print(Frr, y);
-			 W_line();
-			 Sort(Frr, y);
-			 Print(Frr, y);
-			 std::cout << endl << "Cумма элементов массива = " << Sum(Frr, y) << endl;
-			 std::cout << endl << "Среднее арифметическое элементов массива = " << Avg(Frr, y) << endl << endl;
-			 std::cout << " Для повтора Нажмите 1: ";
-			 if (_getch() == '1')
-			 {
-				 system("cls");
-				 goto G_FLOATx1;
-			 }
+	float Frr[y];
+	FillRand(Frr, y, Min_Fx1, Max_Fx1);
+	Print(Frr, y);
+	W_line();
+	Sort(Frr, y);
+	Print(Frr, y);
+	std::cout << endl << "Cумма элементов массива = " << Sum(Frr, y) << endl;
+	std::cout << endl << "Среднее арифметическое элементов массива = " << Avg(Frr, y) << endl << endl;
+	std::cout << " Для повтора Нажмите 1: ";
+	if (_getch() == '1')
+	{
+		system("cls");
+		goto G_FLOATx1;
+	}
 
-			 system("cls");
+	system("cls");
 #endif // FLOATx1
 	////////////////////////
 #ifdef INTx2
@@ -197,95 +197,95 @@ G_INTx2:
 
 	G_DOUBLEx2:
 
-			int Min_Dx2;
-			int Max_Dx2;
-			std::cout << "\t\tДвумерный масив типа double";
-			W_line();
-			std::cout << "Введите минимально допустимое значение элементов массива:";
-			std::cin >> Min_Dx2;
-			std::cout << "Введите максимально допустимое значение элементов массива:";
-			std::cin >> Max_Dx2;
-			W_line();
+	int Min_Dx2;
+	int Max_Dx2;
+	std::cout << "\t\tДвумерный масив типа double";
+	W_line();
+	std::cout << "Введите минимально допустимое значение элементов массива:";
+	std::cin >> Min_Dx2;
+	std::cout << "Введите максимально допустимое значение элементов массива:";
+	std::cin >> Max_Dx2;
+	W_line();
 
-			double Ddr[ROWS][COLS];
-			FillRand(Ddr, Min_Dx2, Max_Dx2);
-			Print(Ddr);
-			W_line();
-			Sort(Ddr);
-			Print(Ddr);
-			std::cout << endl << "Cумма элементов массива = " << Sum(Ddr) << endl << endl;
-			std::cout << endl << "Среднее арифметическое элементов массива = " << Avg(Ddr)<< endl << endl;
-			std::cout << " Для повтора Нажмите 1: ";
-			if (_getch() == '1')
-			{
-				system("cls");
-				goto G_DOUBLEx2;
-			}
+	double Ddr[ROWS][COLS];
+	FillRand(Ddr, Min_Dx2, Max_Dx2);
+	Print(Ddr);
+	W_line();
+	Sort(Ddr);
+	Print(Ddr);
+	std::cout << endl << "Cумма элементов массива = " << Sum(Ddr) << endl << endl;
+	std::cout << endl << "Среднее арифметическое элементов массива = " << Avg(Ddr)<< endl << endl;
+	std::cout << " Для повтора Нажмите 1: ";
+	if (_getch() == '1')
+	{
+		system("cls");
+		goto G_DOUBLEx2;
+	}
 
-			system("cls");
+	system("cls");
 #endif // DOUBLEx2
 	////////////////////////
 
 #ifdef CHARx2
 	G_CHARx2:
 
-			int Min_Cx2;
-			int Max_Cx2;
-			std::cout << "\t\tДвумерный масив типа char";
-			W_line();
-			std::cout << "Введите минимально допустимое значение элементов массива:";
-			std::cin >> Min_Cx2;
-			std::cout << "Введите максимально допустимое значение элементов массива:";
-			std::cin >> Max_Cx2;
-			W_line();
+	int Min_Cx2;
+	int Max_Cx2;
+	std::cout << "\t\tДвумерный масив типа char";
+	W_line();
+	std::cout << "Введите минимально допустимое значение элементов массива:";
+	std::cin >> Min_Cx2;
+	std::cout << "Введите максимально допустимое значение элементов массива:";
+	std::cin >> Max_Cx2;
+	W_line();
 
-			char Dcr[ROWS][COLS];
-			FillRand(Dcr, Min_Cx2, Max_Cx2);
-			Print(Dcr);
-			W_line();
-			Sort(Dcr);
-			Print(Dcr);
-			std::cout << endl << "Cумма элементов массива = " << Suma(Dcr) << endl << endl;
-			std::cout << endl << "Среднее арифметическое элементов массива = " << AvgC(Dcr) << endl << endl;
-			std::cout << " Для повтора Нажмите 1: ";
-			if (_getch() == '1')
-			{
-				system("cls");
-				goto G_CHARx2;
-			}
+	char Dcr[ROWS][COLS];
+	FillRand(Dcr, Min_Cx2, Max_Cx2);
+	Print(Dcr);
+	W_line();
+	Sort(Dcr);
+	Print(Dcr);
+	std::cout << endl << "Cумма элементов массива = " << Suma(Dcr) << endl << endl;
+	std::cout << endl << "Среднее арифметическое элементов массива = " << AvgC(Dcr) << endl << endl;
+	std::cout << " Для повтора Нажмите 1: ";
+	if (_getch() == '1')
+	{
+		system("cls");
+		goto G_CHARx2;
+	}
 
 			system("cls");
 #endif // CHARx2
 	////////////////////////
 #ifdef FLOATx2
-			G_FLOATx2 :
+	G_FLOATx2 :
 
-					 int Min_Fx2;
-					 int Max_Fx2;
-					 std::cout << "\t\tДвумерный масив типа float";
-					 W_line();
-					 std::cout << "Введите минимально допустимое значение элементов массива:";
-					 std::cin >> Min_Fx2;
-					 std::cout << "Введите максимально допустимое значение элементов массива:";
-					 std::cin >> Max_Fx2;
-					 W_line();
+	int Min_Fx2;
+	int Max_Fx2;
+	std::cout << "\t\tДвумерный масив типа float";
+	W_line();
+	std::cout << "Введите минимально допустимое значение элементов массива:";
+	std::cin >> Min_Fx2;
+	std::cout << "Введите максимально допустимое значение элементов массива:";
+	std::cin >> Max_Fx2;
+	W_line();
 
-					 float Dfr[ROWS][COLS];
-					 FillRand(Dfr, Min_Fx2, Max_Fx2);
-					 Print(Dfr);
-					 W_line();
-					 Sort(Dfr);
-					 Print(Dfr);
-					 std::cout << endl << "Cумма элементов массива = " << Sum(Dfr) << endl << endl;
-					 std::cout << endl << "Среднее арифметическое элементов массива = " << Avg(Dfr) << endl << endl;
-					 std::cout << " Для повтора Нажмите 1: ";
-					 if (_getch() == '1')
-					 {
-						 system("cls");
-						 goto G_FLOATx2;
-					 }
+	float Dfr[ROWS][COLS];
+	FillRand(Dfr, Min_Fx2, Max_Fx2);
+	Print(Dfr);
+	W_line();
+	Sort(Dfr);
+	Print(Dfr);
+	std::cout << endl << "Cумма элементов массива = " << Sum(Dfr) << endl << endl;
+	std::cout << endl << "Среднее арифметическое элементов массива = " << Avg(Dfr) << endl << endl;
+	std::cout << " Для повтора Нажмите 1: ";
+	if (_getch() == '1')
+	{
+		system("cls");
+		goto G_FLOATx2;
+	}
 
-					 system("cls");
+	system("cls");
 #endif // FLOATx2
 
  End();

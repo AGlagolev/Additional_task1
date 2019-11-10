@@ -2,7 +2,8 @@
 #include "Exchange.h"
 #include "Exchange.cpp"
 
-//ФУНКЦИЯ Sort
+//РЕАЛИЗАЦИЯ ШАБЛОНОВ ФУНКЦИЙ Sort
+// для одномерных масивов
 template<typename T>
 void Sort(T Arr[], const int n)
 {
@@ -18,7 +19,7 @@ void Sort(T Arr[], const int n)
 		}
 	}
 }
-////////////////////////////////////////////
+// для двумерных масивов
 template<typename T>
 void Sort(T Arr[ROWS][COLS])
 {////Сортировка:

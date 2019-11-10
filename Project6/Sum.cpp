@@ -1,6 +1,8 @@
 #include "Sum.h"
 #include "Global_var.h"
 
+//–≈јЋ»«ј÷»я ЎјЅЋќЌќ¬ ‘”Ќ ÷»… Sum
+// дл€ одномерных масивов
 template<typename T>
 T Sum(T Arr[], int const n)
 {
@@ -11,7 +13,7 @@ T Sum(T Arr[], int const n)
 	}
 	return(Summ);
 }
-
+// дл€ двумерных масивов
 template<typename T>
 T Sum(T Arr[ROWS][COLS])
 

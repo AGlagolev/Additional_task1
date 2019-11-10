@@ -1,6 +1,7 @@
 #include "Print.h"
 
-////‘”Ќ ÷»я Print
+//–≈јЋ»«ј÷»я ЎјЅЋќЌќ¬ ‘”Ќ ÷»…  Print
+// дл€ одномерных масивов
 template<typename T>
 void Print(T Arr[], const int n)
 {
@@ -11,8 +12,7 @@ void Print(T Arr[], const int n)
 	}
 	std::cout << std::endl;
 }
-
-
+// дл€ двумерных масивов
 template<typename T>
 void Print(T Arr[ROWS][COLS])
 {
